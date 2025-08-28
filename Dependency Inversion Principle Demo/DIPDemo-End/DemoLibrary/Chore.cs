@@ -8,6 +8,8 @@ namespace DemoLibrary
 {
     public class Chore : IChore
     {
+
+        // for testiong we can use different loggers and message senders instead of sending mail to inbox we can mock it
         ILogger _logger;
         IMessageSender _messageSender;
 
